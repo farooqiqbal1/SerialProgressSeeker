@@ -29,4 +29,4 @@ jobs:
       run: dotnet test --no-build --verbosity normal
 
     - name: Run Console Application
-      run: dotnet run --configuration Release
+      run: dotnet run --project ./SerialProgressSeeker/SerialProgressSeeker.csproj --configuration Release
